@@ -35,7 +35,7 @@ function App(): React.JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <Test/>
-      {/* <ToDoList text ="changed text" /> */}
+      <ToDoList text ="changed text" />
       <Test2/>
     </SafeAreaView>
   );
