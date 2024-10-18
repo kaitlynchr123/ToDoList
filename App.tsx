@@ -18,7 +18,8 @@ import {
   Colors
 } from 'react-native/Libraries/NewAppScreen';
 import Test from './src/component/Test';
-import {Test2} from './src/component/Test2';
+import Test2 from './src/component/Test2';
+import ONEFILE from './src/component/ONEFILE';
 
 
 function App(): React.JSX.Element {
@@ -29,14 +30,15 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <SafeAreaView style={[backgroundStyle, {flex: 1 }]}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <Test/>
+      {/* <Test/>
       <ToDoList text ="changed text" />
-      <Test2/>
+      <Test2/> */}
+     {<ONEFILE/>}
     </SafeAreaView>
   );
 }

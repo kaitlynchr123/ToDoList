@@ -64,6 +64,8 @@ const Style = StyleSheet.create({
 
 
   },
+
+
 //   title: {
 //     // marginBottom: 16,
 //     // paddingVertical: 8,
